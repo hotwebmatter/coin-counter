@@ -17,11 +17,11 @@ namespace coin_counter
 
             changeRemaining = CHANGE;
             quarters = changeRemaining / 25;
-            changeRemaining = changeRemaining % 25;
+            changeRemaining %= 25;
             dimes = changeRemaining / 10;
-            changeRemaining = changeRemaining % 10;
+            changeRemaining %= 10;
             nickels = changeRemaining / 5;
-            changeRemaining = changeRemaining % 5;
+            changeRemaining %= 5;
             pennies = changeRemaining;
 
             WriteLine("Original change amount: {0:C2}", CHANGE);

@@ -1,6 +1,6 @@
 # Coin Counter
 
-Implementation of classic coin-counting algorithm.
+Implementation of classic coin-counting algorithm (thanks, CS50.)
 
 Demonstrates use of integer and floating-point division,
 and use of modular arithmetic to calculate remainders.

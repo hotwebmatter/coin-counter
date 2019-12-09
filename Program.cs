@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace coin_counter
 {
@@ -6,7 +7,7 @@ namespace coin_counter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
         }
     }
 }

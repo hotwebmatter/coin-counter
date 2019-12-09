@@ -24,7 +24,7 @@ namespace coin_counter
             changeRemaining %= 5;
             pennies = changeRemaining;
 
-            WriteLine("{0, 14} {1:C2}", "Change given:", CHANGE);
+            WriteLine("{0, 14} {1:C2}", "Change given:", CHANGE / (double)100);
             WriteLine("{0, 14} {1}", "Quarters:", quarters);
             WriteLine("{0, 14} {1}", "Dimes:", dimes);
             WriteLine("{0, 14} {1}", "Nickels:", nickels);
